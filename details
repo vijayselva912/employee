@@ -1,0 +1,24 @@
+package array;
+
+public class Employee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int years[]= {1994,2000,1999};
+int salary[]= { 15000,20000,5000};
+ String[]name= {"Robert","Sam","John"};
+ String[]address= {"64c-walls street","68D- walls street","26B walls street"};
+ System.out.println("NAME\t Year of joining\t Salary \t Address");
+for(int i=0;i<3;i++) {
+	
+	System.out.print(name[i]+"\n");
+	System.out.print("\t\t"+years[i]+"\n");
+	System.out.print("\t\t\t\t" +salary[i]+"\n");
+	System.out.print("\t\t\t\t\t\t"  +address[i]+"\n");
+
+
+
+
+
+
+}}}
